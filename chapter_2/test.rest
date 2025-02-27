@@ -1,0 +1,23 @@
+### TEST GET / WEBSITE
+ 
+GET http://localhost:3000/
+
+### TEST GET /dashboard WEBSITE
+GET http://localhost:3000/localhost:3000/dashboard
+
+### DATA ENDPOINT
+GET http://localhost:3000/api/data
+
+###
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+
+{
+    "name": "keo"
+    
+}
+
+### DELETE END POINT
+
+DELETE http://localhost:3000/api/data
